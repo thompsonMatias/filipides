@@ -1,0 +1,13 @@
+/.idea/
+/target/
+/**/node_modules/
+/client/app/build/
+/**/secrets/
+
+/server/logs/*.log*
+
+# All secret files
+/**/*.key
+/**/*.pem
+/**/*.pub
+/**/*.secret

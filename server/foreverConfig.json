@@ -1,0 +1,13 @@
+{
+    "uid": "meetup beers - server",
+    "append": true,
+    "debug": true,
+    "verbose": true,
+    "minUptime": 1000,
+    "spinSleepTime": 1000,
+    "script": "src/server.js",
+    "path": "./",
+    "timestamp": true,
+    "errFile": "logs/forever-errors.log",
+    "logFile": "logs/forever-server.log"
+}
