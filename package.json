@@ -1,0 +1,12 @@
+{
+  "name": "filipides",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docker": "./runDocker.sh",
+    "start": "npm --prefix ./server/ run start-dev"
+  },
+  "dependencies": {
+    "concurrently": "^5.0.2"
+  }
+}
